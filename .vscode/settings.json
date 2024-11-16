@@ -1,13 +1,19 @@
 {
     "makefile.configureOnOpen": false,
     "cSpell.words": [
+        "bband",
+        "bollinger",
         "datareader",
         "hypertable",
         "iterrows",
         "postgrest",
         "psycopg",
+        "sqlalchemy",
+        "stddev",
         "SWDA",
         "timescaledb",
+        "xaxis",
+        "yaxis",
         "yfinance"
     ],
     "npm.exclude": "**/.venv/**",
