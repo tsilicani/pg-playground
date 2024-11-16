@@ -24,7 +24,7 @@ try:
     for idx, row in df.iterrows():
         close = float(row['Close'])
         cur.execute(
-            "INSERT INTO etf_data (time, close) VALUES (%s, %s)",
+            "INSERT INTO swda_data (time, close) VALUES (%s, %s)",
             (idx, close)
         )
     conn.commit()
