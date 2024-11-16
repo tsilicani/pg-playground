@@ -1,3 +1,16 @@
 {
-    "makefile.configureOnOpen": false
+    "makefile.configureOnOpen": false,
+    "cSpell.words": [
+        "datareader",
+        "hypertable",
+        "iterrows",
+        "postgrest",
+        "psycopg",
+        "SWDA",
+        "timescaledb",
+        "yfinance"
+    ],
+    "npm.exclude": "**/.venv/**",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.analysis.extraPaths": ["${workspaceFolder}/.venv/lib/python3.9/site-packages"]
 }

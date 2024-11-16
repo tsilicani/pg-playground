@@ -49,5 +49,7 @@ install_shmig() {
 reset_stack() {
     docker compose down
     rm -rf $DB_DATA_DIR
-    docker compose up
+    docker compose up -d
+    sleep 5
+    shmig migrate
 }

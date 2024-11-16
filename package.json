@@ -1,6 +1,7 @@
 {
   "scripts": {
     "docker-compose": "docker compose up",
-    "restart-postgrest": "docker compose restart postgrest"
+    "restart-postgrest": "docker compose restart postgrest",
+    "reset-stack": "source config.sh && reset_stack"
   }
 }

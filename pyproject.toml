@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pg-playground"
+version = "0.1.0"
+description = "PostgreSQL playground project"
+authors = ["Tobias TL"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+jupyterlab = "^4.3.0"
+notebook = "^7.2.2"
+yfinance = "^0.2.49"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
